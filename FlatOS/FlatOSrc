@@ -1,0 +1,53 @@
+[General]
+
+# Adjust the text color to fit with your color theme
+ActiveTextColor=68,83,127
+ActiveFocusedTabColor=255,255,255
+ActiveUnfocusedTabColor=255,255,255
+
+# Same for inactive text
+InactiveTextColor=110,110,110
+InactiveFocusedTabColor=200,200,200
+InactiveUnfocusedTabColor=200,200,200
+
+# You might want to change title bar text alignment
+LeftButtons=XIA
+TitleAlignment=Center
+TitleVerticalAlignment=Center
+UseTextShadow=false
+Shadow=true
+Animation=0
+
+
+[Layout]
+
+# The actual borders, don't set top
+BorderRight=8
+BorderBottom=8
+BorderLeft=8
+
+# The title bar is our top border so to say
+# The edge values are basically the padding of the title bar
+# If your title bars text is centered make sure to adjust the right or left value
+# In that case you need to compensate for the buttons on the opposing side
+TitleEdgeTop=8
+TitleEdgeRight=84
+TitleEdgeBottom=8
+TitleEdgeLeft=16
+
+TitleEdgeTopMaximized=8
+TitleEdgeRightMaximized=84
+TitleEdgeBottomMaximized=8
+TitleEdgeLeftMaximized=8
+
+# Button dimensions
+ButtonHeight=20
+ButtonWidth=20
+ButtonMarginTop=1
+ButtonSpacing=0
+
+# The decorations shadow dimensions
+PaddingTop=40
+PaddingRight=70
+PaddingBottom=80
+PaddingLeft=70
